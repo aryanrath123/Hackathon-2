@@ -1,0 +1,76 @@
+/* Style the main title */
+.stApp h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the sidebar header */
+.stApp .sidebar-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the input fields */
+.stApp .sidebar-content input[type="text"],
+.stApp .sidebar-content input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the file uploader */
+.stApp .sidebar-content input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Style the button */
+.stApp .sidebar-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the success and error messages */
+.stApp .sidebar-content .stAlert {
+    margin-top: 15px;
+}
+
+/* Style the grid */
+.stApp .stColumns {
+    margin-top: 20px;
+}
+
+/* Style the dog card */
+.stApp .stCard {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the adopt button */
+.stApp .stButton--success {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the adopt button on hover */
+.stApp .stButton--success:hover {
+    background-color: #45a049;
+}
